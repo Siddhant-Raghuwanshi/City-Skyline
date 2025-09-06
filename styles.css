@@ -19,6 +19,14 @@
     overflow: hidden;
   }
   
+  .title{
+    font-size: 2em;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+  }
+
   .background-buildings, .foreground-buildings {
     width: 100%;
     height: 100%;
@@ -307,6 +315,9 @@
       --window-color2: #777;
       --window-color3: #777;
       --window-color4: #777;
+    }
+    .title{
+      display: none;
     }
     .sky {
       background: radial-gradient(
